@@ -147,7 +147,7 @@ public class PlayerMove : MonoBehaviour
             {
                 if(colliders[i].gameObject !=gameObject)
                 {
-                    anim.ResetTrigger("Junp");
+                    anim.ResetTrigger("Jump");
                     anim.SetBool("IsLand", false);
                     return true;
                 }
